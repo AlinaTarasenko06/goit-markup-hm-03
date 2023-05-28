@@ -150,6 +150,7 @@ color: var(--ocean-color);
 .section-one{
 background:var(--navy-color);
 text-align: center;
+
 }
 
 
@@ -179,6 +180,8 @@ background-color:var(--ocean-color);
 
 .hero-one{
 padding-top: 188px;
+/* width: 496px; */
+
         margin-top: 0;
          margin-bottom: 48px;
     font-family: 'Roboto';
@@ -226,6 +229,21 @@ font-family: 'Roboto';
 
 /* SECTION 2 */
 
+
+.section-two{
+    display: flex;
+}
+
+.about-list{
+    margin-right: 24px;
+    width: 264px;
+    
+}
+
+.about-list:last-child{
+    margin-right: 0;
+}
+
 .section-pic{
 padding-top: 120px;
 padding-bottom: 120px;
@@ -247,11 +265,28 @@ padding-bottom: 120px;
 
 /* SECTION 3 */
 
+.section-pic{
+    
+}
+
+.section-three{
+    display: flex;
+}
+
+.phone-pic{
+    margin-right: 24px;
+    
+}
+.phone-pic:last-child{
+    margin-right: 0;
+}
+
 .section-human{
     padding-top: 120px;
         padding-bottom: 120px;
 background-color:var(--cloud-color);
 }
+
 
 
 .hero-three{
@@ -268,6 +303,13 @@ background-color:var(--cloud-color);
         text-transform: capitalize;
         color: var(--navy-color);
 }
+
+.section-four{
+    display: flex;
+    
+}
+
+
 
 .human-hero{
     margin-bottom: 8px;
@@ -298,6 +340,12 @@ background-color:var(--cloud-color);
 
 .humah-tiem {
 background-color: var(--title-color);
+margin-right: 24px;
+;
+}
+
+.header-item:last-child{
+    margin-right: 0;
 }
 
 /* FOOTER */
@@ -322,9 +370,26 @@ background-color: var(--title-color);
 
 /*  tow list */
 
+.div-two{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .ul-button{
     padding-top: 96px;
         padding-bottom: 72px;
+        display: flex ;
+        justify-content: center;
+            align-items: center;
+}
+
+.button-item{
+    margin-right: 24px;
+
+}
+
+.button-item:last-child{
+    margin-right: 0;
 }
 
 .button-list-tow {
@@ -355,8 +420,25 @@ background-color: var(--title-color);
  color: var(--title-color);
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 .row-list{
     text-decoration: none;
+    width: 360px;
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
+
+.row-list:nth-child(3n){
+    margin-right: 0;
+}
+
+.row-list:nth-last-child(-n+3){
+margin-bottom: 0;
 }
 
 .horo-row{
