@@ -355,7 +355,7 @@ background-color:var(--cloud-color);
 .humah-tiem {
 background-color: var(--title-color);
 margin-right: 24px;
-;
+
 }
 
 .header-item:last-child{
@@ -364,13 +364,14 @@ margin-right: 24px;
 
 /* FOOTER */
 .footer{
-    padding: 100px;
+ padding-top: 100px;
+padding-bottom: 100px;
 }
 
 
 .footer-information{
     max-width: 264px;
-    
+
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -385,17 +386,24 @@ margin-right: 24px;
 
 /*  tow list */
 
+.button{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .div-two {
     margin-left: auto;
     margin-right: auto;
 }
 
 .ul-button{
+    
     padding-top: 96px;
-        padding-bottom: 72px;
-        display: flex ;
-        justify-content: center;
-            align-items: center;
+    margin-bottom: 72px;
+    padding-bottom: 72px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-item{
@@ -408,10 +416,11 @@ margin-right: 24px;
 }
 
 .button-list-tow {
-
+border: 1px solid #e7e9fc;
     border-radius: 4px;
     padding: 12px 24px;
     display: inline-block;
+
     font-family: 'Roboto',sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -426,11 +435,13 @@ margin-right: 24px;
 }
 
 .button-list-tow:hover {
+    border: 1px solid transparent;
    background-color: var(--ocean-color);
    color: var(--title-color);
 }
 
 .button-list-tow:focus {
+   border: 1px solid transparent;
  background-color:var(--ocean-color);
  color: var(--title-color);
 }
