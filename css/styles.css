@@ -32,6 +32,7 @@ body {
 .header-logo{
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px;
 
 font-family: "Raleway", sans-serif;
 font-weight: 800;
@@ -123,12 +124,11 @@ font-family: 'Roboto';
 
 .header-address{
     display: flex;
-
+    margin-left: auto;
 }
 
 .address-list:first-child{
 margin-right: 40px;
-margin-left: 332px;
 }
 
 .header-address-link{
@@ -276,10 +276,6 @@ padding-bottom: 120px;
 
 /* SECTION 3 */
 
-.section-pic{
-    
-}
-
 .section-three{
     display: flex;
 }
@@ -381,7 +377,7 @@ margin-right: 24px;
 
 /*  tow list */
 
-.div-two{
+.div-two {
     margin-left: auto;
     margin-right: auto;
 }
