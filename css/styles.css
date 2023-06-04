@@ -171,6 +171,7 @@ text-align: center;
         padding: 11px 32px;
         min-width: 169px;
         margin: auto;
+        margin-top: 48px;
 
     background-color: var(--iris-color);
         font-family: 'Roboto', sans-serif;
@@ -192,10 +193,11 @@ background-color:var(--ocean-color);
 }
 
 .hero-one{
- max-width: 496px;
-         margin-bottom: 48px;
+        max-width: 496px;
+
+
          margin: auto;
-    font-family: 'Roboto';
+         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
@@ -263,6 +265,7 @@ padding-bottom: 120px;
 .hero-two{
     margin-top: 0;
     margin-bottom: 72px;
+
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -303,6 +306,7 @@ background-color:var(--cloud-color);
 .hero-three{
     margin-top: 0;
     margin-bottom: 72px;
+
     background-color:var(--cloud-color);
     font-family: 'Roboto';
         font-style: normal;
@@ -317,6 +321,7 @@ background-color:var(--cloud-color);
 
 .section-four{
     display: flex;
+    gap: 24px;
     
 }
 
@@ -359,6 +364,7 @@ padding-right: 16px;
 .humah-tiem {
 background-color: var(--title-color);
 margin-right: 24px;
+border-radius: 0px 0px 4px 4px;
 
 }
 
