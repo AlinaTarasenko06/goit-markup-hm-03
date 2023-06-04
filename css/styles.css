@@ -170,6 +170,7 @@ text-align: center;
         border-radius: 4px;
         padding: 11px 32px;
         min-width: 169px;
+        margin: auto;
 
     background-color: var(--iris-color);
         font-family: 'Roboto', sans-serif;
@@ -179,6 +180,7 @@ text-align: center;
         font-size: 16px;
         line-height: 1.5;
         align-items: center;
+        text-align: center;
         letter-spacing: 0.04em; 
         color: var(--title-color);
 }
@@ -191,10 +193,8 @@ background-color:var(--ocean-color);
 
 .hero-one{
  max-width: 496px;
-
-
-        margin-top: 0;
          margin-bottom: 48px;
+         margin: auto;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -320,14 +320,17 @@ background-color:var(--cloud-color);
     
 }
 
-.humam-div{
+.human-div{
 padding-top: 32px;
 padding-bottom: 32px;
+padding-left: 16px;
+padding-right: 16px;
 }
 
 
 .human-hero{
     margin-bottom: 8px;
+     margin-top: 0;
 
     background-color:var(--title-color);
     font-family: 'Roboto';
@@ -467,8 +470,7 @@ margin-bottom: 0;
 }
 
 .human-row{
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding: 32px 16px;
     border:1px solid #E7E9FC ;
     border-top: none;
 }
